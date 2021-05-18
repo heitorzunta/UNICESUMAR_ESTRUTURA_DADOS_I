@@ -1,0 +1,8 @@
+3. Qual a diferença entre uma variável do tipo inteira de um ponteiro do tipo inteiro?
+a variável do tipo inteiro armazena um número inteiro de 4 bits (geralmente) e um ponteiro do tipo inteiro
+armazena um endereco de memoria que aponta para um local que que contem um numero inteiro.
+
+4. Por que devemos preencher um ponteiro apenas com o endereço de uma variável ou por
+alocação dinâmica usando funções como malloc?
+Porque a funçao do ponteiro e armazenar endereços de memória assim aceitam o endereco de uma variavel
+ou a alocação dinâmica de um 'espaço' de memória por meio do comando malloc
