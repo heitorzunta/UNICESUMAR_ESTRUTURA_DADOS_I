@@ -95,6 +95,8 @@ int main(int argc, char const *argv[])
 {
     //Criando a fila (ponteiro) de teste, toda fila que se preze chama-se 'f'
     FILA *f = (FILA *) malloc(sizeof(FILA));
+    f->first = NULL;
+    f->last = NULL;
 
     // povoando a fila com numeros
     printf("Inserindo o numero 5\n");
