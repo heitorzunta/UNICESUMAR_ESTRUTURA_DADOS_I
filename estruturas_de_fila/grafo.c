@@ -13,7 +13,7 @@
 // Declaração das variaveis
 int tamanho = 0, grafo[tamanho_maximo], 
     matriz_adjacente[tamanho_maximo][tamanho_maximo], 
-    opcao = 1;
+    opcao = -1;
 
 //Funcoes utilizadas
 //Tamanho do Grafo
